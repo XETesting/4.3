@@ -1,11 +1,51 @@
-# Wa Wa Wee Wa!
+# Wa Wa Wee Wa! Hello World Edition
 
-This is a new file `wawawewa.md` created on the `borat` branch in the `XETesting/4.3` repository.
+This file `wawawewa.md` has been updated on the `borat` branch in the `XETesting/4.3` repository with Hello World code examples.
 
-## Content
+## Hello World Code Examples
 
-- Borat reference: Wa wa wee wa!
-- Created via GitHub connected tool
-- Date: 2026-05-18
+### Python
+```python
+print("Hello, World!")
+```
 
-> Very nice!
+### JavaScript
+```javascript
+console.log("Hello, World!");
+```
+
+### Java
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+### C
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+### Go
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+## Borat's Take
+
+> Very nice! Hello, my name is Borat Sagdiyev. Wa wa wee wa!
+
+*Updated on 2026-05-18 via GitHub tools* 

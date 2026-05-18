@@ -1,0 +1,30 @@
+- Issues found with Expert mode always routing to Fast mode.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1768948281682589
+
+- Prerelease testing of Grok Highlights, issues found where the app would freeze requiring a restart, and UI issues on images.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1766092371420389?thread_ts=1766019973.800139&cid=C096E07UCNB
+
+- Issues found on image generation for general queries, providing useless/filler images.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1768598627480329?thread_ts=1768598347.186539&cid=C096E07UCNB
+
+- Issue found with stock suggestions being sparse and overall missing out on various companies such as GOOGL, APPL, etc.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1766189000400849?thread_ts=1766019973.800139&cid=C096E07UCNB
+
+- Issues found with grok heavy mode getting unnecessarily stuck on the last agent dot, simply requiring a refresh of the app or site to give the response.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1766102185677199?thread_ts=1765997889.629899&cid=C096E07UCNB
+
+- Issues found with chat link sharing between QA/Teachx/Personal/Anon accounts.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1765468342138499
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1765481014814329?thread_ts=1765468342.138499&cid=C096E07UCNB
+
+- Issues found with Image output being given as "</grok:render>" due to an incorrect tool call.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1765501746279079?thread_ts=1765500756.587139&cid=C096E07UCNB
+
+- Issues with image output being an image that states "This site does not have permission to access or serve this content".
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1765929014778239?thread_ts=1765928426.500399&cid=C096E07UCNB
+
+- Assisting with changes needed for testing sheet.
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1765482031732279?thread_ts=1765468342.138499&cid=C096E07UCNB
+
+- Prerelease testing of Auto/Fast mode 4.1
+   - https://teachxai.slack.com/archives/C096E07UCNB/p1767142938295769

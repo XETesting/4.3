@@ -1,0 +1,27 @@
+CHANGELOG:
+- Tests consolidated to by feature approach (Subfeature still adds necessary distinction)
+- Reorged order of tests for most-efficient path (WIP could use feedback from testers)
+- Auto & Fast tests for "latest news" which had 2 promting tests, one for search, and another for appropriate routing now made into one for each, making sure to check all necessary issues at the same time.
+- 'Expected' Description of File Process changed for better verbiage.
+- Aesthetical Upgrade
+- Dropdowns added to majority of fields for efficiency.
+- Created a separate tab for Paused Tests & Periodic Test
+- Moved Heavy Short & Long Background tests & Grok in X into periodic tests (1x per week, thinking Wed best day? or 2x, Tue & Fri?)
+- Renamed Expert Inline Images to Expert Product Comparison as img is no longer required.
+- File Processing had the following actions "What's in the file? What's in page X?" - as such, I created a separate test for Web Processing.
+- Included the correct answer for Heavy Active Query (5511) as a requirement.
+- Deleted Disable-Auto Share test as it is redundant with autoshare with & w/o attachment tests. (e.g. it is already in the steps to test this)
+- Edited Continue a shared convo test to only be between two accounts as it is redundant to keep testing share perms (already done by autoshare with & w/o attachment tests).
+- Include tests for Read Aloud, can be a short prompt/expected response in order to make sure the feature is working.
+- Add a test for </> Execute Code, such as prompting "Calculate molecular weight of caffeine using rdkit." and making sure it appears prior to the response and after at the bottom.
+- Include a test for UI of code blocks, e.g. prompt "Write a sample python code for an OSRS plugin." and make sure that the appropriate block is given, that it is written in Python, can collapse, wrap, run, copy.
+- Reworded a majority of tests, making sure steps are properly organized and grammatically correct.
+- Steps e.g. (1. ... 2. ... 3. ... etc.) are clearly outlined.
+- Expected is reworded and formatted in a way that is easy to follow such as with "latest news" query, the first step should be to see web search tools being activated rather than "see headlines for current date."
+- Encouraged variations in prompting for cases such as Expert Research, Auto Image Gen, Heavy Investment Suggestions.
+
+TENTATIVE (Waiting on follow-up from Daniel):
+- Create a repository for Heavy queries with correct answers. (e.g. expect accurate responses, such as the proleg query response being "5,511")
+- Remove 4.1 Beta (Is this something we should still be testing?)
+- Include tests for newer/upcoming models such as 4.20 models available to teachx accounts.
+- Include a test for delay time when starting a new prompt utilizing speak button.

@@ -1,0 +1,6 @@
+- Periodic tests, e.g. some tests just 1x per week.
+- Combine redundant tests such as "Latest News" for content & thought process.
+- Streamline tests by mode rather than feature.
+- Figure out tests to remove.
+- Encourage variations in prompting between tests.
+- Add tests relative to safety boundaries.
